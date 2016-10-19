@@ -11,3 +11,9 @@ end
 list(grocery_list)
 
 puts grocery_list.count
+
+if grocery_list.include?("bananas") == true
+  puts "You don't need bananas."
+else
+  puts "You need bananas."
+end
