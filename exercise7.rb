@@ -11,3 +11,8 @@ end
 students[:cohort4] = 43
 
 puts students.keys
+
+students.each do | k, v |
+  v = v * 1.05
+  puts "#{k}: #{v} students"
+end
