@@ -9,3 +9,5 @@ def list(grocery_list)
 end
 
 list(grocery_list)
+
+puts grocery_list.count
