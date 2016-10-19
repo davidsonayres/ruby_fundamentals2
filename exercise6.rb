@@ -1,4 +1,4 @@
-grocery_list = ["bread", "cheese", "milk", "eggs", "bacon"]
+grocery_list = ["bread", "cheese", "milk", "eggs", "bacon", "salmon"]
 
 grocery_list << "rice"
 
@@ -19,3 +19,6 @@ else
 end
 
 puts grocery_list[1]
+
+grocery_list.sort!
+list(grocery_list)
