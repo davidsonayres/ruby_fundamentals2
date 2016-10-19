@@ -19,3 +19,11 @@ end
 
 students.delete(:cohort2)
 puts students
+
+total_students = 0
+
+students.each do | k, v |
+  total_students += v
+end
+
+puts "There are #{total_students} students across all cohorts at Bitmaker!"
