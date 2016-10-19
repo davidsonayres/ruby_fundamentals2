@@ -22,3 +22,6 @@ puts grocery_list[1]
 
 grocery_list.sort!
 list(grocery_list)
+
+grocery_list.delete("salmon")
+list(grocery_list)
